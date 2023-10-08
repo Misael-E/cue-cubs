@@ -1,0 +1,25 @@
+@import "./constants.css";
+
+.start-btn-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.start-btn {
+	background-color: transparent;
+	border: 0.25rem solid var(--primary);
+	border-radius: 1.5rem;
+	padding: 0.5rem 1rem;
+	color: var(--primary);
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	font-family: "Architects Daughter", cursive;
+	cursor: pointer;
+}
+
+.start-btn:hover {
+	border: 0.25rem solid rgba(0, 0, 0, 0.5);
+	color: rgba(0, 0, 0, 0.5);
+}

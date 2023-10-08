@@ -1,0 +1,21 @@
+@import "./constants.css";
+
+:root {
+	font-family: "Architects Daughter", cursive;
+	line-height: 1.5;
+	font-weight: 400;
+
+	color: var(--primary);
+	background-color: var(--pale-dogwood);
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
